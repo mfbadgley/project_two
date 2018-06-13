@@ -31,7 +31,6 @@ Flask-PyMongo==0.5.1
 Flask-SQLAlchemy==2.3.2
 gevent==1.2.2
 glob2==0.5
-gmpy2==2.0.8
 greenlet==0.4.12
 gunicorn==19.8.1
 h5py==2.7.0
