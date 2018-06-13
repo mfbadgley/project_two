@@ -12,12 +12,16 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
 	
-	<link rel="stylesheet" type="text/css" href="../static/css/jquery.fullPage.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/examples.css" />
     <script type="text/javascript" src="../static/js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="../static/js/examples.js"></script>
-	<script type="text/javascript" src="../static/js/app.js"></script>
-
+	<script type="text/javascript" src="../static/js/app.js"></script> -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.fullPage.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/examples.css') }}">
+	<script src="{{ url_for('static', filename='js/jquery.fullPage.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/examples.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/app.js') }}"></script>
 	<style>
 		/* Sections
 		 * --------------------------------------- */
@@ -144,7 +148,8 @@
 </div>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="../static/js/app.js"></script>
+<!-- <script src="../static/js/app.js"></script> -->
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
 </body>
 </html>
