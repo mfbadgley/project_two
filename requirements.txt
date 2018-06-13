@@ -6,6 +6,7 @@ bokeh==0.12.10
 boto==2.48.0
 Bottleneck==1.2.1
 bs4==0.0.1
+Cython==0.26.1
 Cartopy==0.16.0
 certifi==2018.1.18
 cffi==1.10.0
@@ -21,7 +22,6 @@ conda-verify==2.0.0
 contextlib2==0.5.5
 cryptography==2.0.3
 cycler==0.10.0
-Cython==0.26.1
 cytoolz==0.8.2
 dask==0.15.3
 datashape==0.5.4
