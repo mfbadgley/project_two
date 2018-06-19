@@ -5,7 +5,8 @@ import pymongo
 app = Flask(__name__)
 
 
-conn = 'mongodb://localhost:27017'
+#conn = 'mongodb://localhost:27017'
+conn ='mongodb://forrest:test123@ds263380.mlab.com:63380/college_data'
 client = pymongo.MongoClient(conn)
 db = client.college_data
 
